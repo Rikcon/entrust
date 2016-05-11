@@ -239,7 +239,7 @@ trait EntrustUserTrait
             $role = $role['id'];
         }
 
-        $this->roles()->attach($role);
+        return $this->roles()->attach($role);
     }
 
     /**
@@ -257,7 +257,7 @@ trait EntrustUserTrait
             $role = $role['id'];
         }
 
-        $this->roles()->detach($role);
+        return $this->roles()->detach($role);
     }
 
     /**
