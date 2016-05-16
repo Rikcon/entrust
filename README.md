@@ -39,7 +39,7 @@ contains the latest entrust version for Laravel 4.
 
 In order to install Laravel 5 Entrust, just add
 
-    "zizaco/entrust": "5.2.x-dev"
+    "zizaco/entrust": "master"
 
 to your composer.json. Then run `composer install` or `composer update`.
 
